@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local environment variables
+.env
+.env.development
+.env.production
+.env.test
+
+# Cache & temporary files
+.cache/           # Caches created by build tools like Webpack or Babel
+coverage/         # Test coverage output
+.eslintcache      # Cache created by ESLint
+.prettier.cache   # Cache created by Prettier
+stylelint.cache   # Cache for Stylelint (if using CSS linting)
+
+# IDE/editor files
+.idea/            # IntelliJ/WebStorm project files
+.vscode/          # VSCode settings
+.DS_Store         # macOS Finder metadata
+Thumbs.db         # Windows file metadata
+
+# Tailwind CSS specific
+tailwind.css
+tailwind.min.css
+*.css.map         # Source maps for CSS
+
+# Ignore testing artifacts
+jest-testing.xml
+
+# Other
+*.tmp
+*.bak
+
+.DS_Store
+.idea/
+modules.xml
+types.iml
+vcs.xml

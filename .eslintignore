@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Testing code coverage
+coverage/
+
+# Cache directory
+.cache/
+
+# Tailwind CSS outputs
+tailwind.css
+tailwind.min.css
+*.css.map
+
+# IDE/editor files
+.idea/
+.vscode/
+
+# Ignore specific files
+*.min.js
+*.bundle.js
+
+# Ignore auto-generated files
+swagger-generated/
+graphql-generated/
