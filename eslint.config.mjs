@@ -30,7 +30,7 @@ export default [
       tailwindcss: {
         // Tailwind-specific settings (optional)
         officialSorting: true, // Enforce Tailwind's class sorting
-        whitelist: [],         // Add custom class names if using dynamic ones
+        whitelist: [], // Add custom class names if using dynamic ones
       },
     },
   },
